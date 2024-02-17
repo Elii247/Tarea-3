@@ -9,7 +9,7 @@ public class Main {
         byte edad = 90;
         int altura = 68, apartamento = 200, peso = 400, cantidad = 10;
         long telefono = 1823638932;
-        String nombre = "10" ;
+        String nombre = "10";
         char genero = '2';
 
       //Se ingresa en teclado
