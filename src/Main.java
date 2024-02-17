@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        boolean visitante = false, empleado = false;
+        boolean visitante = true, empleado = false;
         byte edad = 90;
         int altura = 68, apartamento = 200, peso = 400, cantidad = 10;
         long telefono = 1823638932;
