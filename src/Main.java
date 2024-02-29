@@ -5,14 +5,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        boolean visitante = true, empleado = false;
-        byte edad = 90;
-        int altura = 68, apartamento = 200, peso = 400, cantidad = 10;
-        long telefono = 1823638932;
-        String nombre = "10";
-        char genero = '2';
+        boolean visitante,empleado;
+        byte edad;
+        int altura, apartamento, peso, cantidad;
+        long telefono;
+        String nombre;
+        char genero;
 
       //Se ingresa en teclado
+        System.out.println("Bienvenido al Edificio SkyTower");
 
         System.out.println("El visitante es un Empleado (Si/No): ");
         empleado= scanner.nextBoolean();
@@ -26,7 +27,7 @@ public class Main {
         System.out.println("\nEdad: ");
         edad = scanner.nextByte();
 
-        System.out.println("\nGenero: ");
+        System.out.println("\nGenero (M/F): ");
         genero = scanner.next().charAt(0);
 
         System.out.println("\nPeso del visitante (En Kg): ");
