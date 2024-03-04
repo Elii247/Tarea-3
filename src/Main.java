@@ -5,24 +5,30 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        boolean visitante,empleado;
+        boolean visitante,empleado,estudiante;
         byte edad;
         int altura, apartamento, peso, cantidad;
         long telefono;
-        String nombre;
+        String nombre,apellido;
         char genero;
 
       //Se ingresa en teclado
         System.out.println("Bienvenido al Edificio SkyTower");
 
-        System.out.println("El visitante es un Empleado (Si/No): ");
+        System.out.println("El visitante es un Empleado? (true/false): ");
         empleado= scanner.nextBoolean();
+
+        System.out.println("\nEs estudiante? (true/false) ");
+        estudiante = scanner.nextBoolean();
 
         System.out.println("\nEs un visitante nuevo (Si/No): ");
         visitante = scanner.nextBoolean();
 
         System.out.println("\nNombre: ");
         nombre = scanner.next();
+
+        System.out.println("\nApellido: ");
+        apellido = scanner.next();
 
         System.out.println("\nEdad: ");
         edad = scanner.nextByte();
@@ -47,8 +53,9 @@ public class Main {
 
        //Se imprime en pantalla
         System.out.println("El visitante es un Empleado: " + empleado);
+        System.out.println("El visitante es un Estudiante: " + estudiante);
         System.out.println("\nEs un visitante nuevo: " + visitante);
-        System.out.println("\nNombre: " + nombre);
+        System.out.println("\nNombre: " + nombre + apellido);
         System.out.println("\nEdad: " + edad);
         System.out.println("\nGenero: " + genero);
         System.out.println("\nPeso del visitante: " + peso);
