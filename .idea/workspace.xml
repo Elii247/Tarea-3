@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40583d7f-6db7-4e59-9b2d-e3377982956d" name="Changes" comment="Tarea 3">
+    <list default="true" id="40583d7f-6db7-4e59-9b2d-e3377982956d" name="Changes" comment="Tarea 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <workItem from="1708373399554" duration="108000" />
       <workItem from="1708388154385" duration="130000" />
       <workItem from="1709249195715" duration="3892000" />
-      <workItem from="1709563462126" duration="15382000" />
+      <workItem from="1709563462126" duration="16896000" />
     </task>
     <task id="LOCAL-00001" summary="Tarea 3">
       <option name="closed" value="true" />
@@ -152,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709570347238</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tarea 4">
+      <option name="closed" value="true" />
+      <created>1709581796493</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709581796493</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +167,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tarea 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tarea 3" />
+    <MESSAGE value="Tarea 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tarea 4" />
   </component>
 </project>
