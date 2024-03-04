@@ -53,9 +53,9 @@ public class Main {
 
        //Se imprime en pantalla
         System.out.println("El visitante es un Empleado: " + empleado);
-        System.out.println("El visitante es un Estudiante: " + estudiante);
+        System.out.println("\nEl visitante es un Estudiante: " + estudiante);
         System.out.println("\nEs un visitante nuevo: " + visitante);
-        System.out.println("\nNombre: " + nombre + apellido);
+        System.out.println("\nNombre: " + nombre + " " + apellido);
         System.out.println("\nEdad: " + edad);
         System.out.println("\nGenero: " + genero);
         System.out.println("\nPeso del visitante: " + peso);
