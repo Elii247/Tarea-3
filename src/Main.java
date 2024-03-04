@@ -33,6 +33,8 @@ public class Main {
         System.out.println("\nEdad: ");
         edad = scanner.nextByte();
 
+        String esMayorEdad = (edad > 18) ?"Es Mayor de edad " : "Es Menor de edad";
+
         System.out.println("\nGenero (M/F): ");
         genero = scanner.next().charAt(0);
 
@@ -50,6 +52,27 @@ public class Main {
 
         System.out.println("\nCantidad de visitantes: ");
         cantidad = scanner.nextInt();
+        scanner.nextLine();
+
+        int cantidadTotalVisita = 0;
+        int cantidadTotalminutos = 0;
+
+            for(int i = 0; i < 7; i++){
+                System.out.println("\nDia " + (i+1));
+                System.out.println("Ingrese la cantidad de visitas para el dia " + (i+1) + ": ");
+                int cantidadVisitasDia = scanner.nextInt();
+
+                    for(int j = 0; j < cantidadVisitasDia; j++){
+                        System.out.println("\ntiempo de estadia del visitante " + (j+1) + "(en minutos): ");
+                        int tiempoVisita = scanner.nextInt();
+                        cantidadTotalminutos += tiempoVisita;
+                        cantidadTotalVisita++;
+                    }
+            }
+
+            double tiempoPromedioEstadia = (double) cantidadTotalminutos / cantidadTotalVisita;
+            String tiempoFormateado = String.format("%04d", (int)tiempoPromedioEstadia);
+
 
        //Se imprime en pantalla
         System.out.println("El visitante es un Empleado: " + empleado);
@@ -62,7 +85,8 @@ public class Main {
         System.out.println("\nAltura del visitante: " + altura);
         System.out.println("\nNumero de telefono: " + telefono);
         System.out.println("\nNumero de apartamento: " + apartamento);
-        System.out.println("\nCantidad de visitantes: " + cantidad);
+        System.out.println("\nCantidad de visitantes: " + cantidadTotalVisita);
+        System.out.println("\nTiempo de visita: " + tiempoFormateado.substring(2) + " " + "minutos");
 
     }
 }
