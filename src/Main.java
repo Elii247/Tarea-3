@@ -15,7 +15,7 @@ public class Main {
       //Se ingresa en teclado
         System.out.println("Bienvenido al Edificio SkyTower");
 
-        System.out.println("El visitante es un Empleado? (true/false): ");
+        System.out.println("\nEl visitante es un Empleado? (true/false): ");
         empleado= scanner.nextBoolean();
 
         System.out.println("\nEs estudiante? (true/false): ");
