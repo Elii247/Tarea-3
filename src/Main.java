@@ -18,10 +18,10 @@ public class Main {
         System.out.println("El visitante es un Empleado? (true/false): ");
         empleado= scanner.nextBoolean();
 
-        System.out.println("\nEs estudiante? (true/false) ");
+        System.out.println("\nEs estudiante? (true/false): ");
         estudiante = scanner.nextBoolean();
 
-        System.out.println("\nEs un visitante nuevo (Si/No): ");
+        System.out.println("\nEs un visitante nuevo? (true/false): ");
         visitante = scanner.nextBoolean();
 
         System.out.println("\nNombre: ");
